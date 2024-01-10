@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+  
+  <meta name="baidu-site-verification" content="code-J1Qg17G6wT" />
+  <title>markdown语法教程 - 某枇杷味の猫 之web</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="its an interesting web">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  
+  
+
+    <!-- Site Verification -->
+    <meta name="baidu-site-verification" content="code-J1Qg17G6wT" />
+
+  <link rel="shortcut icon" href="/images/head/head.jpg" type="image/png" />
+  <meta name="description" content="markdown语法教程    by某枇杷味の猫">
+<meta property="og:type" content="article">
+<meta property="og:title" content="markdown语法教程">
+<meta property="og:url" content="http://example.com/2024/01/10/markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/index.html">
+<meta property="og:site_name" content="某枇杷味の猫 之web">
+<meta property="og:description" content="markdown语法教程    by某枇杷味の猫">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%888.11.07.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%888.20.47.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%888.39.14.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%889.25.11.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%889.35.47.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%889.41.43.png">
+<meta property="og:image" content="https://img1.baidu.com/it/u=2501595043,615388710&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%8810.51.19.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%8810.51.59.png">
+<meta property="article:published_time" content="2024-01-10T01:20:40.000Z">
+<meta property="article:modified_time" content="2024-01-10T03:39:36.763Z">
+<meta property="article:author" content="某枇杷味の猫">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%888.11.07.png">
+  <link rel="stylesheet" href="https://lib.baomitu.com/highlight.js/9.15.8/styles/atom-one-dark.min.css" crossorigin>
+  <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css">
+  <link rel="stylesheet" href="/lib/iconfont/iconfont.css">
+  <link rel="stylesheet" href="/lib/fancybox/css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://lib.baomitu.com/justifiedGallery/3.8.1/css/justifiedGallery.min.css">
+  
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2421060_8z08qcz5sq3.css">
+  
+  <link rel="stylesheet" href="/css/style.css?v=1704858193131">
+<meta name="generator" content="Hexo 7.0.0"></head>
+
+<body class="mdui-drawer-body-left">
+  
+  <div id="nexmoe-background">
+    <div class="nexmoe-bg" style="background-image: url(/images/background/xiaomai.jpg)"></div>
+    <div class="nexmoe-small" style="background-image: url(/images/background/lihui.png)"></div>
+    <div class="mdui-appbar mdui-shadow-0">
+      <div class="mdui-toolbar">
+        <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+        <div class="mdui-toolbar-spacer"></div>
+        <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+        <a href="/" title="某枇杷味の猫" class="mdui-btn mdui-btn-icon"><img src="/images/head/head.jpg" alt="某枇杷味の猫"></a>
+       </div>
+    </div>
+  </div>
+  <div id="nexmoe-header">
+      <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="某枇杷味の猫">
+            <img src="/images/head/head.jpg" alt="某枇杷味の猫" alt="某枇杷味の猫">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div class="nexmoe-count-item"><span>文章</span>6 <div class="item-radius"></div><div class="item-radius item-right"></div> </div>
+        <div class="nexmoe-count-item"><span>标签</span>0<div class="item-radius"></div><div class="item-radius item-right"></div></div>
+        <div class="nexmoe-count-item"><span>分类</span>0<div class="item-radius"></div><div class="item-radius item-right"></div></div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-meishi"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/archives.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-hanbao1"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/about.html" title="关于作者">
+            <i class="mdui-list-item-icon nexmoefont icon-jiubei1"></i>
+            <div class="mdui-list-item-content">
+                关于作者
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/friend.html" title="我的朋友">
+            <i class="mdui-list-item-icon nexmoefont icon-cola"></i>
+            <div class="mdui-list-item-content">
+                我的朋友
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/download.html" title="下载中心">
+            <i class="mdui-list-item-icon nexmoefont icon-tangguo"></i>
+            <div class="mdui-list-item-content">
+                下载中心
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+  
+  
+<!-- 站内搜索 -->
+
+<div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search" >
+        <form id="search-form">
+            <label><input type="text" id="local-search-input" name="q" results="0" placeholder="站内搜索" class="input form-control" autocomplete="off" autocorrect="off"/></label>
+            <!-- 清空/重置搜索框 -->
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+        </form>
+    </div>
+    <div id="local-search-result"></div> <!-- 搜索结果区 -->
+    <!-- <p class='no-result'></p> 无匹配时显示，注意在 CSS 中设置默认隐藏 -->
+</div>
+
+
+  
+  <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="http://wpa.qq.com/msgrd?v=3&uin=2120252100&site=qq&menu=yes" target="_blank" mdui-tooltip="{content: 'QQ'}" style="color: rgb(64, 196, 255);background-color: rgba(64, 196, 255, .1);">
+            <i class="nexmoefont icon-QQ"></i>
+        </a><a class="mdui-ripple" href="mailto:tangyuxian@vip.qq.com" target="_blank" mdui-tooltip="{content: 'mail'}" style="color: rgb(249,8,8);background-color: rgba(249,8,8,.1);">
+            <i class="nexmoefont icon-mail-fill"></i>
+        </a><a class="mdui-ripple" href="https://blog.csdn.net/qq_40621378?type=blog" target="_blank" mdui-tooltip="{content: 'CSDN'}" style="color: rgb(199,29,35);background-color: rgba(199,29,35,.1);">
+            <i class="nexmoefont icon-csdn"></i>
+        </a><a class="mdui-ripple" href="https://www.cnblogs.com/lovetangyuxian/" target="_blank" mdui-tooltip="{content: '博客园'}" style="color: rgb(66, 214, 29);background-color: rgba(66, 214, 29, .1);">
+            <i class="nexmoefont icon-bokeyuan"></i>
+        </a><a class="mdui-ripple" href="https://github.com/protoncell/" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a><a class="mdui-ripple" href="https://gitee.com/tangyuxian" target="_blank" mdui-tooltip="{content: 'gitee'}" style="color: rgb(255, 255, 255);background-color: rgb(199,29,35);">
+            <i class="nexmoefont icon-mayun"></i>
+        </a>
+    </div>
+</div>
+  
+  
+
+  
+  
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章归档</h3>
+    <div class="nexmoe-widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/">2024</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023</a><span class="archive-list-count">5</span></li></ul>
+    </div>
+  </div>
+
+
+<style>
+.nexmoe-widget .archive-list-count{
+	position : absolute;
+	right: 15px;
+	top:9px;
+	color: #DDD;
+}
+</style>
+
+  
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2024 某枇杷味の猫
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/tangyuxian/hexo-theme-tangyuxian" target="_blank">Tangyuxian</a><br/>
+        <a href="http://beian.miit.gov.cn" target="_blank">辽ICP备2021002341号</a><br/>
+        
+        <div style="font-size: 12px">
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            本站总访问量  <a id="busuanzi_value_site_pv"></a> 次<br />
+            本站访客数<a id="busuanzi_value_site_uv"></a>人次
+        </div>
+        
+        
+    </div>
+
+</div><!-- .nexmoe-drawer -->
+
+  </div>
+  <div id="nexmoe-content">
+    <div class="nexmoe-primary">
+        <div class="nexmoe-post">
+    
+        <div class="nexmoe-post-cover"
+             style="padding-bottom: 24.305555555555554%;">
+            <img data-src="/images/background/xiaomai.jpg" data-sizes="auto" alt="markdown语法教程" class="lazyload">
+            <h1>markdown语法教程</h1>
+        </div>
+    
+
+        <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2024年01月10日</a>
+    <a><i class="nexmoefont icon-areachart"></i>1.9k 字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 8 分钟</a>
+</div>
+
+        <div class="nexmoe-post-right">
+            
+        </div>
+
+        <article>
+            <h2 id="markdown语法教程-by某枇杷味の猫"><a href="#markdown语法教程-by某枇杷味の猫" class="headerlink" title="markdown语法教程    by某枇杷味の猫"></a>markdown语法教程    by某枇杷味の猫</h2><span id="more"></span>
+
+<p>真的非常<strong>简单</strong>,    <del>学不会你吃了我</del>o(￣▽￣)ｄ </p>
+<hr>
+<h3 id="一-准备工作"><a href="#一-准备工作" class="headerlink" title="一.准备工作"></a>一.准备工作</h3><p>如果你想让你的博客，看起来更加美观，学习markdown是必要的，你不需要存在害怕的心理，因为markdown十分简单，就是记住几个符号就行了，不是你想象的他和学习编程语言一样复杂。</p>
+<p>在开始之前，我们需要一个markdown的编辑器，来帮助我们识别markdown的文本，我推荐你使用**<code>Typora</code>**</p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.typora.io/">点击这里下载</a></p>
+</blockquote>
+<hr>
+<h3 id="二-标题"><a href="#二-标题" class="headerlink" title="二.标题"></a>二.标题</h3><p>我们常常需要用到标题，在markdown中标题使用<code>#</code>号表示，一个<code>#</code>代表1级标题，一共有6个级别，他们的大小依次变小</p>
+<p>语法展示：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%888.11.07.png" alt="这是预览效果：" class="lazyload"></p>
+<p>在markdown里面段落没有语法，但是你还是需要注意怎么划分段落</p>
+<p>如果你一直编辑一段文字，没有空格两个以上并且按下回车键（换行），这一段文字就自成一段</p>
+<p>在Typora里面只需要回车换行</p>
+<p>[<img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%888.20.47.png" alt="image" class="lazyload">](<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7">https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/屏幕快照</a> 2020-03-15 下午8.20.47.png)</p>
+<hr>
+<h3 id="三-字体"><a href="#三-字体" class="headerlink" title="三.字体"></a>三.字体</h3><p>在markdown里面也有斜体粗体，语法如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">*斜体文本*</span></span><br><span class="line"><span class="emphasis">_斜体文本_</span></span><br><span class="line"><span class="strong">**粗体文本**</span></span><br><span class="line"><span class="strong">__粗体文本__</span></span><br><span class="line"><span class="strong">**<span class="emphasis">*粗斜体文本*</span>**</span></span><br><span class="line"><span class="strong">__<span class="emphasis">_粗斜体文本_</span>__</span></span><br></pre></td></tr></table></figure>
+
+<p>我不太建议你用下划线，因为下划线会连在一起，不好区分数量，建议使用下面的语法形式：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">*斜体文本*</span></span><br><span class="line"><span class="strong">**粗体文本**</span></span><br><span class="line"><span class="strong">**<span class="emphasis">*粗斜体文本*</span>**</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="四-分隔线"><a href="#四-分隔线" class="headerlink" title="四.分隔线"></a>四.分隔线</h3><p>在你编辑很多文字之后，如果不使用分隔线，可能会让读者错乱，使用分隔线会有一种层次感。</p>
+<p>分隔线在一行中，使用三个以上的星号、减号、下划线来建立(可以隔开)</p>
+<p>语法：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">***</span></span><br><span class="line"><span class="strong"></span></span><br><span class="line"><span class="strong">----------</span></span><br><span class="line"><span class="strong"></span></span><br><span class="line"><span class="strong">_ _ <span class="emphasis">_</span></span></span><br></pre></td></tr></table></figure>
+
+<p>[<img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%888.39.14.png" alt="image" class="lazyload">](<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7">https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/屏幕快照</a> 2020-03-15 下午8.39.14.png)</p>
+<hr>
+<h3 id="五-删除线"><a href="#五-删除线" class="headerlink" title="五.删除线"></a>五.删除线</h3><p>删除线就是给文本加上删除线，在文本两端使用两个波浪线<code>~</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">~~文本~~</span><br></pre></td></tr></table></figure>
+
+<h3 id="六-删除线"><a href="#六-删除线" class="headerlink" title="六.删除线"></a>六.删除线</h3><p>在markdown里面并没有关于下划线的语法，但是markdown允许你插入一些基本的<code>HTML</code>代码，下划线语法如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">u</span>&gt;</span></span>这是一个有下划线的文本<span class="language-xml"><span class="tag">&lt;/<span class="name">u</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="七-列表"><a href="#七-列表" class="headerlink" title="七.列表"></a>七.列表</h3><p>列表分为有序和无序</p>
+<h4 id="7-1无序列表"><a href="#7-1无序列表" class="headerlink" title="7.1无序列表"></a>7.1无序列表</h4><p>无序列表使用星号<code>*</code>、加号 <code>+</code>、减号 <code>-</code></p>
+<p>语法如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">*</span> 第一项</span><br><span class="line"><span class="bullet">*</span> 第二项</span><br><span class="line"><span class="bullet">*</span> 第三项</span><br><span class="line"></span><br><span class="line"><span class="bullet">+</span> 第一项</span><br><span class="line"><span class="bullet">+</span> 第二项</span><br><span class="line"><span class="bullet">+</span> 第三项</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> 第一项</span><br><span class="line"><span class="bullet">-</span> 第二项</span><br><span class="line"><span class="bullet">-</span> 第三项</span><br></pre></td></tr></table></figure>
+
+<p>注意需要和符号之间保持一个空格</p>
+<p>[<img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%889.25.11.png" alt="image" class="lazyload">](<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7">https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/屏幕快照</a> 2020-03-15 下午9.25.11.png)</p>
+<h4 id="7-2有序列表"><a href="#7-2有序列表" class="headerlink" title="7.2有序列表"></a>7.2有序列表</h4><p>有序列表其实很简单，就是数字加上<code>.</code></p>
+<p>文本使用空格隔开</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">2. 第二项</span><br><span class="line">3. 第三项</span><br></pre></td></tr></table></figure>
+
+<h4 id="7-3列表嵌套"><a href="#7-3列表嵌套" class="headerlink" title="7.3列表嵌套"></a>7.3列表嵌套</h4><p>有序和无序可以一起使用，只需要在子列表的选项添加四个空格</p>
+<p>语法：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项：</span><br><span class="line"><span class="bullet">    -</span> 子列表1</span><br><span class="line"><span class="bullet">    -</span> 子列表2</span><br><span class="line"><span class="bullet">2.</span> 第二项：</span><br><span class="line"><span class="bullet">    -</span> 子列表1</span><br><span class="line"><span class="bullet">    -</span> 子列表2</span><br></pre></td></tr></table></figure>
+
+<h3 id="八-区块-引用-及其嵌套"><a href="#八-区块-引用-及其嵌套" class="headerlink" title="八.区块(引用)及其嵌套"></a>八.区块(引用)及其嵌套</h3><p>区块是用来引用的，比如链接或者一段文本</p>
+<p>在段落的开头使用<code>&gt;</code>符号，使用空格，隔开文本</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 引用的内容</span></span><br><span class="line"><span class="quote">&gt;</span></span><br><span class="line"><span class="quote">&gt; 第二段引用的内容</span></span><br></pre></td></tr></table></figure>
+
+<p>在引用里面也是分段落的，我们不是使用回车，而是使用<code>&gt;</code>成单个一行</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 引用</span></span><br><span class="line">&gt;&gt; 2</span><br><span class="line">&gt;&gt;</span><br><span class="line">&gt;&gt;&gt;3</span><br></pre></td></tr></table></figure>
+
+<p>[<img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%889.35.47.png" alt="image" class="lazyload">](<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7">https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/屏幕快照</a> 2020-03-15 下午9.35.47.png)</p>
+<hr>
+<h3 id="九-代码块-〃’▽’〃"><a href="#九-代码块-〃’▽’〃" class="headerlink" title="九.代码块(〃’▽’〃)"></a>九.代码块(〃’▽’〃)</h3><p>这是一个程序员专用的语法，代码块可以展示不同语言的代码，并且有不同的高亮显示，代码块语法如下:</p>
+<p>上下使用三个点进行包裹，最顶上的可以写上代码的类型</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="code">```javascript</span></span><br><span class="line"><span class="code">$(document).ready(function () &#123;</span></span><br><span class="line"><span class="code">    alert(&#x27;RUNOOB&#x27;);</span></span><br><span class="line"><span class="code">&#125;);</span></span><br><span class="line"><span class="code">```</span></span><br></pre></td></tr></table></figure>
+
+<p>[<img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%889.41.43.png" alt="image" class="lazyload">](<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7">https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/屏幕快照</a> 2020-03-15 下午9.41.43.png)</p>
+<hr>
+<h3 id="十-超链接"><a href="#十-超链接" class="headerlink" title="十.超链接"></a>十.超链接</h3><p>插入链接有两种方式：</p>
+<ul>
+<li>第一种：直接插入</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://protoncell.github.io/">https://protoncell.github.io/</a></p>
+<p>这种方式适用于短的链接，但是过长的链接可能会看起来不得当</p>
+<ul>
+<li>第二种：使用markdown语法插入</li>
+</ul>
+<p>其实就是让一段文本，拥有跳转功能</p>
+<p>语法如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">链接名称</span>](<span class="link">链接地址</span>)</span><br><span class="line"></span><br><span class="line">或者</span><br><span class="line"></span><br><span class="line">&lt;链接地址&gt;</span><br></pre></td></tr></table></figure>
+
+<p>例如：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">杨俊琦的主页</span>](<span class="link">https://protoncell.github.io/</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">&lt;https://protoncell.github.io/&gt;</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="十一-插入图片"><a href="#十一-插入图片" class="headerlink" title="十一.插入图片"></a>十一.插入图片</h3><p>在一个文章里面插入图片是必不可少的，本地的文章可以使用本地图片，在你上传博客之后，也必须上传本地图片，但这样会有弊端。</p>
+<p>使用本地图片会严重拖慢博客速度，我们需要使用超链接进行插入图片，也就是把图片上传的某个服务器上面，然后获取图片在服务器上面的地址。</p>
+<p>但是我们也可以使用免费的托管或者图床，上传我们的图片，本篇教程不教图床的使用，下篇文章将会提到。</p>
+<p>插入图片的语法：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">图片描述</span>](<span class="link">图片的链接</span>)</span><br></pre></td></tr></table></figure>
+
+<p>例如: <code>![围栏档案](https://img1.baidu.com/it/u=2501595043,615388710&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=889&amp;h=500)</code></p>
+<p>预览:<img data-fancybox="gallery" data-sizes="auto" data-src="https://img1.baidu.com/it/u=2501595043,615388710&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500" alt="围栏档案" class="lazyload"></p>
+<hr>
+<h3 id="十二-表格"><a href="#十二-表格" class="headerlink" title="十二.表格"></a>十二.表格</h3><p>在markdown里面是可以插入表格的，可以体现一些数据</p>
+<p>语法：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
+
+<h4 id="12-1对齐"><a href="#12-1对齐" class="headerlink" title="12.1对齐"></a>12.1对齐</h4><ul>
+<li>居右<code>-:</code></li>
+<li>居左<code>:-</code></li>
+<li>居中<code>:-:</code></li>
+</ul>
+<p>语法如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :-----| ----: | :----: |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>
+
+<p>我们只需要在第二行插入分隔线</p>
+<hr>
+<h3 id="十三-转义符"><a href="#十三-转义符" class="headerlink" title="十三.转义符"></a>十三.转义符</h3><p>因为在markdown的语法里面，用了一些特定的符号作为语法，如果我们想输出符号，而不是被识别成语法，就需要使转义字符</p>
+<p>只需要使用反斜杠，然后加上下面的某个符号即可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line">*   星号</span><br><span class="line">_   下划线</span><br><span class="line">&#123;&#125;  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  小括号</span><br><span class="line">#   井字号</span><br><span class="line">+   加号</span><br><span class="line">-   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   感叹号</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>不使用转义字符：</li>
+</ul>
+<p>[<img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%8810.51.19.png" alt="image" class="lazyload">](<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7">https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/屏幕快照</a> 2020-03-15 下午10.51.19.png)</p>
+<ul>
+<li>使用了转义字符</li>
+</ul>
+<p>[<img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-15%20%E4%B8%8B%E5%8D%8810.51.59.png" alt="image" class="lazyload">](<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7">https://cdn.jsdelivr.net/gh/kjhuanhao/blogcdn/hexo/屏幕快照</a> 2020-03-15 下午10.51.59.png)</p>
+<hr>
+<h3 id="十四-其他高级语法"><a href="#十四-其他高级语法" class="headerlink" title="十四.其他高级语法"></a>十四.其他高级语法</h3><p>在大多的markdown编辑器中，可能无法展示高级语法，以上的语法完全够用，你也可以无需学习高级语法。</p>
+<p>高级语法有如下内容(只展示部分）：</p>
+<ul>
+<li>数学公式</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">$$</span><br><span class="line">\mathbf&#123;V&#125;<span class="emphasis">_1 \times \mathbf&#123;V&#125;_</span>2 =  \begin&#123;vmatrix&#125; </span><br><span class="line">\mathbf&#123;i&#125; &amp; \mathbf&#123;j&#125; &amp; \mathbf&#123;k&#125; \\</span><br><span class="line">\frac&#123;\partial X&#125;&#123;\partial u&#125; &amp;  \frac&#123;\partial Y&#125;&#123;\partial u&#125; &amp; 0 \\</span><br><span class="line">\frac&#123;\partial X&#125;&#123;\partial v&#125; &amp;  \frac&#123;\partial Y&#125;&#123;\partial v&#125; &amp; 0 \\</span><br><span class="line">\end&#123;vmatrix&#125;</span><br><span class="line">$&#123;$tep1&#125;&#123;\style&#123;visibility:hidden&#125;&#123;(x+1)(x+1)&#125;&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>HTML元素</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">kbd</span>&gt;</span>Ctrl<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span>+<span class="tag">&lt;<span class="name">kbd</span>&gt;</span>Alt<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span>+<span class="tag">&lt;<span class="name">kbd</span>&gt;</span>Del<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>流程图</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">``flow</span><br><span class="line">st=&gt;start: 开始框</span><br><span class="line">op=&gt;operation: 处理框</span><br><span class="line">cond=&gt;condition: 判断框(是或否?)</span><br><span class="line">sub1=&gt;subroutine: 子流程</span><br><span class="line">io=&gt;inputoutput: 输入输出框</span><br><span class="line">e=&gt;end: 结束框</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;io-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op</span><br><span class="line"><span class="code">```</span></span><br></pre></td></tr></table></figure>
+
+
+
+<hr>
+<p>教程到这里就结束了,你应该学会了吧?ヾ(๑╹◡╹)ﾉ”</p>
+<p><strong>快去动手试试吧!</strong></p>
+<p>如果有任何人不懂的地方,<del>直接去找姓杨的</del> 欢迎在评论区留言.(￣３￣)a </p>
+<hr>
+<p>阅读(12) 评论(0)          <a target="_blank" rel="noopener" href="https://world.com/">点赞</a> <a target="_blank" rel="noopener" href="https://world.com/">收藏</a></p>
+<h5 id="评论区"><a href="#评论区" class="headerlink" title="评论区"></a>评论区</h5><table>
+<thead>
+<tr>
+<th align="right"><a target="_blank" rel="noopener" href="https://protoncell.github.io/">发布</a></th>
+</tr>
+</thead>
+</table>
+<p><em>…这里空空如也呐qwq…</em></p>
+
+        </article>
+
+        
+            
+  <div class="nexmoe-post-copyright">
+    <strong>本文作者：</strong>某枇杷味の猫<br>
+    
+    <strong>本文链接：</strong><a href="http://example.com/2024/01/10/markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/" title="http:&#x2F;&#x2F;example.com&#x2F;2024&#x2F;01&#x2F;10&#x2F;markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;example.com&#x2F;2024&#x2F;01&#x2F;10&#x2F;markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B&#x2F;</a><br>
+
+    
+      <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+    
+  </div>
+
+
+        
+
+        <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+    
+</div>
+
+    <div class="nexmoe-post-footer">
+        <section class="nexmoe-comment">
+    <div class="valine"></div>
+<script src='https://lib.baomitu.com/valine/1.3.9/Valine.min.js'></script>
+<script>
+    // 使用方法 https://valine.js.org/quickstart.html
+    new Valine({
+        el: '.valine',
+        appId: 'r5zxC0st0DDjPA9auXzMV7HY-gzGzoHsz',
+        appKey: '3bqCsovpyfTPHUzTHovd3V3V'
+    })
+</script>
+</section>
+    </div>
+</div>
+
+
+        <div class="nexmoe-post-right">
+          
+            <div class="nexmoe-fixed">
+              <div class="nexmoe-tool">
+                <a href="#" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+              </div>
+            </div>
+          
+        </div>
+    </div>
+  </div>
+  <div id="nexmoe-pendant">
+    <div class="nexmoe-drawer mdui-drawer nexmoe-pd" id="drawer">
+        
+            <div class="nexmoe-pd-item">
+                <div class="clock">
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="memory"></div>
+        <div class="needle" id="hours"></div>
+        <div class="needle" id="minutes"></div>
+        <div class="needle" id="seconds"></div>
+        <div class="clock_logo">
+
+        </div>
+
+    </div>
+<style>
+    .clock {
+        background-color: #ffffff;
+        width: 70vw;
+        height: 70vw;
+        max-width: 70vh;
+        max-height: 70vh;
+        border: solid 2.8vw #242424;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        box-sizing: border-box;
+        box-shadow: 0 1.4vw 2.8vw rgba(0, 0, 0, 0.8);
+        zoom:0.2
+    }
+
+    .memory {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform-origin: center;
+    }
+
+    .memory:nth-child(1) {
+        background-color: #424242;
+        width: 2%;
+        height: 8%;
+        transform: translate(-50%, -50%) rotate(0deg) translateY(-520%);
+    }
+
+    .memory:nth-child(2) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(6deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(3) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(12deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(4) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(18deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(5) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(24deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(6) {
+        background-color: #424242;
+        width: 2%;
+        height: 8%;
+        transform: translate(-50%, -50%) rotate(30deg) translateY(-520%);
+    }
+
+    .memory:nth-child(7) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(36deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(8) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(42deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(9) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(48deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(10) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(54deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(11) {
+        background-color: #424242;
+        width: 2%;
+        height: 8%;
+        transform: translate(-50%, -50%) rotate(60deg) translateY(-520%);
+    }
+
+    .memory:nth-child(12) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(66deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(13) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(72deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(14) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(78deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(15) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(84deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(16) {
+        background-color: #424242;
+        width: 2%;
+        height: 8%;
+        transform: translate(-50%, -50%) rotate(90deg) translateY(-520%);
+    }
+
+    .memory:nth-child(17) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(96deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(18) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(102deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(19) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(108deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(20) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(114deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(21) {
+        background-color: #424242;
+        width: 2%;
+        height: 8%;
+        transform: translate(-50%, -50%) rotate(120deg) translateY(-520%);
+    }
+
+    .memory:nth-child(22) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(126deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(23) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(132deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(24) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(138deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(25) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(144deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(26) {
+        background-color: #424242;
+        width: 2%;
+        height: 8%;
+        transform: translate(-50%, -50%) rotate(150deg) translateY(-520%);
+    }
+
+    .memory:nth-child(27) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(156deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(28) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(162deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(29) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(168deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(30) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(174deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(31) {
+        background-color: #424242;
+        width: 2%;
+        height: 8%;
+        transform: translate(-50%, -50%) rotate(180deg) translateY(-520%);
+    }
+
+    .memory:nth-child(32) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(186deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(33) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(192deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(34) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(198deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(35) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(204deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(36) {
+        background-color: #424242;
+        width: 2%;
+        height: 8%;
+        transform: translate(-50%, -50%) rotate(210deg) translateY(-520%);
+    }
+
+    .memory:nth-child(37) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(216deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(38) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(222deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(39) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(228deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(40) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(234deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(41) {
+        background-color: #424242;
+        width: 2%;
+        height: 8%;
+        transform: translate(-50%, -50%) rotate(240deg) translateY(-520%);
+    }
+
+    .memory:nth-child(42) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(246deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(43) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(252deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(44) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(258deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(45) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(264deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(46) {
+        background-color: #424242;
+        width: 2%;
+        height: 8%;
+        transform: translate(-50%, -50%) rotate(270deg) translateY(-520%);
+    }
+
+    .memory:nth-child(47) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(276deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(48) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(282deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(49) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(288deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(50) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(294deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(51) {
+        background-color: #424242;
+        width: 2%;
+        height: 8%;
+        transform: translate(-50%, -50%) rotate(300deg) translateY(-520%);
+    }
+
+    .memory:nth-child(52) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(306deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(53) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(312deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(54) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(318deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(55) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(324deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(56) {
+        background-color: #424242;
+        width: 2%;
+        height: 8%;
+        transform: translate(-50%, -50%) rotate(330deg) translateY(-520%);
+    }
+
+    .memory:nth-child(57) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(336deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(58) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(342deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(59) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(348deg) translateY(-1461%);
+    }
+
+    .memory:nth-child(60) {
+        background-color: #949494;
+        width: 1%;
+        height: 3%;
+        transform: translate(-50%, -50%) rotate(354deg) translateY(-1461%);
+    }
+
+    .needle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform-origin: center;
+    }
+
+    .needle#hours {
+        background-color: #1f1f1f;
+        width: 4%;
+        height: 30%;
+        transform-origin: center 75%;
+        transform: translate(-50%, -75%);
+    }
+
+    .needle#hours.moving {
+        transition: transform 150ms ease-out;
+    }
+
+    .needle#hours:after {
+        content: '';
+        background-color: #1f1f1f;
+        width: 4vw;
+        height: 4vw;
+        max-width: 4vh;
+        max-height: 4vh;
+        display: block;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        box-sizing: border-box;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .needle#minutes {
+        background-color: #1f1f1f;
+        width: 2%;
+        height: 45%;
+        transform-origin: center 75%;
+        transform: translate(-50%, -75%);
+    }
+
+    .needle#minutes.moving {
+        transition: transform 150ms ease-out;
+    }
+
+    .needle#minutes:after {
+        content: '';
+        background-color: #1f1f1f;
+        width: 4vw;
+        height: 4vw;
+        max-width: 4vh;
+        max-height: 4vh;
+        display: block;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        box-sizing: border-box;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .needle#seconds {
+        background-color: #cb2f2f;
+        width: 1%;
+        height: 50%;
+        transform-origin: center 75%;
+        transform: translate(-50%, -75%);
+    }
+
+    .needle#seconds.moving {
+        transition: transform 150ms ease-out;
+    }
+
+    .needle#seconds:after {
+        content: '';
+        background-color: #cb2f2f;
+        width: 2.5vw;
+        height: 2.5vw;
+        max-width: 2.5vh;
+        max-height: 2.5vh;
+        display: block;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        box-sizing: border-box;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .clock_logo{
+        width: 10vw;
+        height: 10vw;
+        max-width: 10vh;
+        max-height: 10vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        box-sizing: border-box;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    @media (min-width: 100vh) {
+        .clock {
+            border: solid 2.8vh #242424;
+            box-shadow: 0 1.4vh 2.8vh rgba(0, 0, 0, 0.8);
+        }
+    }
+
+</style>
+
+
+
+
+
+            </div>
+        
+            <div class="nexmoe-pd-item">
+                <div class="qweather" >
+    <div id="he-plugin-standard"></div>
+    <div class="qweather-logo">
+
+    </div>
+
+</div>
+<style>
+    .qweather{
+        position: relative;
+    }
+    .qweather-logo{
+        position: absolute;
+        right: 0;
+        top: -15px;
+        width: 40px;
+        height: 40px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+</style>
+<script>
+  WIDGET = {
+    "CONFIG": {
+      "layout": "2",
+      "width": "260",
+      "height": "220",
+      "background": "5",
+      "dataColor": "e67249",
+      "borderRadius": "15",
+      "key": "f74d1e1690e6432d801e97fa2f05a162"
+    }
+  }
+</script>
+<script src="https://widget.qweather.net/standard/static/js/he-standard-common.js?v=2.0"></script>
+
+            </div>
+        
+</div>
+<style>
+    .nexmoe-pd {
+        left: auto;
+        top: 40px;
+        right: 0;
+    }
+    .nexmoe-pd-item{
+       display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+</style>
+
+  </div>
+  <script src="https://lib.baomitu.com/lazysizes/5.1.0/lazysizes.min.js"></script>
+<script src="https://lib.baomitu.com/highlight.js/10.0.0/highlight.min.js"></script>
+<script src="https://lib.baomitu.com/mdui/0.4.3/js/mdui.min.js"></script>
+
+<script>
+	hljs.initHighlightingOnLoad();
+</script>
+
+<script src="https://lib.baomitu.com/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="/lib/fancybox/js/jquery.fancybox.min.js"></script>
+
+
+<script src="/js/app.js?v=1704858193133"></script>
+
+<script src="https://lib.baomitu.com/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
+<script>
+	$(".justified-gallery").justifiedGallery({
+		rowHeight: 160,
+		margins: 10,
+	});
+</script>
+
+  
+
+
+
+
+
+<!-- hexo injector body_end start -->
+<script src="https://lib.baomitu.com/clipboard.js/2.0.8/clipboard.min.js"></script>
+
+<script src="/lib/codeBlock/codeBlockFuction.js"></script>
+
+<script src="/lib/codeBlock/codeLang.js"></script>
+
+<script src="/lib/codeBlock/codeCopy.js"></script>
+
+<script src="/lib/codeBlock/codeShrink.js"></script>
+
+<link rel="stylesheet" href="/lib/codeBlock/matery.css">
+
+<script src="/js/clock.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<script src="/js/search.js"></script>
+
+<script src="/js/webapp.js"></script>
+<!-- hexo injector body_end end --></body>
+</html>
+
+<script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/250cb4aa.js","daovoice")</script>
+<script>
+  daovoice('init', {
+    app_id: "250cb4aa"
+  });
+  daovoice('update');
+</script>
+
